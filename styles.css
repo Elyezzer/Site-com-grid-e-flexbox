@@ -15,6 +15,11 @@ header{
 
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 a{
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
@@ -67,11 +72,6 @@ h1{
     max-width: 100%;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 .cachorro_home{
     max-width: 100%;
     width: 100%;
@@ -95,12 +95,13 @@ h1{
 .icones{
     display: flex;
     justify-content: space-around;
-    
+    z-index: 10000;
 
 }
 
 .icones img{
     width: 14%;
+    
 
 }
 
@@ -109,20 +110,28 @@ h1{
     justify-content: space-around;
     text-align: center;
     margin-top: 20px;
-    
+    z-index: 10000;
     
 }
 
 .onda{
     max-width: 100%;
     width: 100%;
-    position: absolute;
-    margin-top: 33%;
+    position: relative;
+    margin-top: -18%;
     
 }
 
 .onda img{
     width: 100%;
+    position: relative;
     
+}
+
+.espaco_azul{
+    min-height: 30vh;
+    max-width: 100%;
+    width: 100%;
+    background-color: #4fbffe;
 }
 
