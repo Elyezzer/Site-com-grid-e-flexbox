@@ -12,12 +12,13 @@ header{
     padding: 50px;
     background-color: #4fbffe;
     max-height: 20vh;
+    min-width: 100%;
 
 }
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 a{
@@ -30,6 +31,15 @@ a{
 h1{
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    width: 225%;
+    min-width: 33%;
+    text-align: center;
+    
 }
 
 .logo{
@@ -57,12 +67,13 @@ h1{
 
 .redes_sociais{
     width: 14%;
-     
+    
 }
 
 
 .redes_sociais img{
     max-width: 20%;
+    padding: 11px;
 
 }
 
@@ -101,6 +112,7 @@ h1{
 
 .icones img{
     width: 14%;
+    max-height: 100%;
     
 
 }
@@ -116,7 +128,7 @@ h1{
 
 .onda{
     max-width: 100%;
-    width: 100%;
+    width:  100%;
     position: relative;
     margin-top: -18%;
     
@@ -129,9 +141,37 @@ h1{
 }
 
 .espaco_azul{
-    min-height: 30vh;
+    display: flex;
+    min-height: 25vh;
     max-width: 100%;
     width: 100%;
+    margin-top: -1%;
     background-color: #4fbffe;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+    
+
+}
+
+.mapa{
+    width: 33%;
+    min-width: 33%;
+    
+}
+
+.mapa img{
+    width: 100%;
+
+}
+
+.barra{
+    background-color: rgb(216, 216, 216);
+    position: absolute;
+    border-color: rgb(255, 255, 255);
+    height: 20%;
+    width: 0.2%;
+    left: 50%;
 }
 
