@@ -22,27 +22,22 @@ a{
     text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
 
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
 .logo{
     max-width: 13%;
+}
+
+.logo img{
+    width: 100%;
 }
 
 .menu{
     display: flex;
     gap: 20px;
-}
-
-
-.redes{
-    column-gap: 50px;
-    flex-wrap: wrap;
-    max-width: 30%;
-    width: 15%;
-
-}
-
-.redes img{
-    width: 20%;
-
 }
 
 .barra_amarela{
@@ -55,29 +50,9 @@ a{
     width: 100vw;
 }
 
-
-}
-
-.logo{
-    
-    width: 12%;
-    
-}
-
-.logo img{
-    width: 100%;
-}
-
-
-.menu{
-    display: flex;
-    gap: 10px;
-    
-}
-
 .redes_sociais{
     width: 14%;
-    
+     
 }
 
 
@@ -89,4 +64,65 @@ a{
 .barra_amarela{
     background-color: #ffc90e;
     height: 4vh;
+    max-width: 100%;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cachorro_home{
+    max-width: 100%;
+    width: 100%;
+}
+
+.cachorro_home img{
+    width: 100%;
+}
+
+.patas{
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.patas img{
+    width: 100%;
+    
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.icones img{
+    width: 14%;
+
+}
+
+.texto_icones{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+
+.onda{
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    margin-top: 33%;
+    
+}
+
+.onda img{
+    width: 100%;
+    
+}
+
