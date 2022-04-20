@@ -14,7 +14,7 @@
         box-sizing: border-box;
         padding: 50px;
         background-color: #4fbffe;
-        max-height: 20vh;
+        max-height: 15vh;
         min-width: 100%;
     
     }
@@ -30,13 +30,101 @@
 
     .redes_sociais{
         min-width: 20%;
+    
+    }
+    
+    .redes_sociais img{
+        width: 100%;
+        padding: 3px;
+    
+    }
+
+}
+
+@media(max-width: 425px){
+
+    header{
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: #4fbffe;
+        max-height: 15vh;
+        min-width: 100%;
+    
+    }
+
+    .logo{
+        max-width: 50%;
+        margin-right: 20%;
+    }
+    
+    .logo img{
+        min-width: 250%;
+        margin-top: -140%;
+    
+    }
+
+    .redes_sociais{
+        min-width: 30%;  
 
     }
     
     .redes_sociais img{
         width: 100%;
         padding: 3px;
+        
+    }
+
+    .barra_amarela{
+
+        position: relative;
+        top: 0vh;
+        background-color: #ffc90e;
+        order: 1;
+        min-width: 50vw;
+    }
+    
+
+}
+
+@media(max-width: 281px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: #4fbffe;
+        max-height: 15vh;
+        min-width: 100%;
+    
+    }
+
+    .logo{
+        max-width: 50%;
+        margin-right: 20%;
+    }
+    
+    .logo img{
+        min-width: 250%;
+        margin-top: -140%;
+    
+    }
+
+    .redes_sociais{
+        min-width: 40%;  
+
+    }
+    
+    .redes_sociais img{
+        width: 100%;
+        padding: 3px;
+        
     
     }
 
@@ -99,9 +187,8 @@ h2{
     top: 0vh;
     background-color: #ffc90e;
     order: 1;
-    height: 5vh;
-    min-width: 100vw;
-    width: 100vw;
+    height: 3vh;
+    min-width: 50vw;
 }
 
 .redes_sociais{
@@ -114,12 +201,6 @@ h2{
     max-width: 20%;
     padding: 3px;
 
-}
-
-.barra_amarela{
-    background-color: #ffc90e;
-    height: 4vh;
-    max-width: 100%;
 }
 
 .cachorro_home{
