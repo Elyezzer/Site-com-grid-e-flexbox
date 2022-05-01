@@ -143,6 +143,7 @@ header{
 }
 
 .grid{
+    max-height: 80vh;
     display: grid;
     grid-template-rows: 1fr;
 }
@@ -166,6 +167,7 @@ h2{
     width: 242%;
     min-width: 33%;
     text-align: center;
+    margin-left: 5vw;
     
 }
 
@@ -269,17 +271,20 @@ h2{
     min-height: 25vh;
     min-width: 100%;
     width: 100%;
-    margin-top: -1%;
+    margin-top: -3%;
     background-color: #4fbffe;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 0.2%;
     box-sizing: border-box;
     
 }
 
 .mapa{
     min-height: 30%;
+    max-width: 180%;
+    margin-right: 23%;
+    margin-left: 40%;
     
 }
 
