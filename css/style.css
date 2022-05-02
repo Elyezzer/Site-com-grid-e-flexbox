@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width: 800px){
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: #4fbffe;
+        max-height: 15vh;
+        min-width: 100%;
+    
+    }
+
+    .logo{
+        max-width: 25%;
+    }
+    
+    .logo img{
+        min-width: 150%;
+    
+    }
+
+    .redes_sociais{
+        min-width: 20%;
+    
+    }
+    
+    .redes_sociais img{
+        width: 100%;
+        padding: 3px;
+    
+    }
+
+}
+
+@media(max-width: 425px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: #4fbffe;
+        max-height: 15vh;
+        min-width: 100%;
+    
+    }
+
+    .logo{
+        max-width: 50%;
+        margin-right: 20%;
+    }
+    
+    .logo img{
+        min-width: 250%;
+        margin-top: -140%;
+    
+    }
+
+    .redes_sociais{
+        min-width: 30%;  
+
+    }
+    
+    .redes_sociais img{
+        width: 100%;
+        padding: 3px;
+        
+    }
+
+    .barra_amarela{
+
+        position: relative;
+        top: 0vh;
+        background-color: #ffc90e;
+        order: 1;
+        min-width: 50vw;
+    }
+    
+
+}
+
+@media(max-width: 281px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 50px;
+        background-color: #4fbffe;
+        max-height: 15vh;
+        min-width: 100%;
+    
+    }
+
+    .logo{
+        max-width: 50%;
+        margin-right: 20%;
+    }
+    
+    .logo img{
+        min-width: 250%;
+        margin-top: -140%;
+    
+    }
+
+    .redes_sociais{
+        min-width: 40%;  
+
+    }
+    
+    .redes_sociais img{
+        width: 100%;
+        padding: 3px;
+        
+    
+    }
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #4fbffe;
+    max-height: 20vh;
+    min-width: 100%;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw;
+    width: 225%;
+    min-width: 33%;
+    text-align: center;
+    
+}
+
+.logo{
+    max-width: 12%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.barra_amarela{
+
+    position: relative;
+    top: 0vh;
+    background-color: #ffc90e;
+    order: 1;
+    height: 3vh;
+    min-width: 50vw;
+}
+
+.redes_sociais{
+    width: 14%;
+
+}
+
+
+.redes_sociais img{
+    max-width: 20%;
+    padding: 3px;
+
+}
+
+.cachorro_sobrenos{
+    max-width: 100%;
+    width: 100%;
+}
+
+.cachorro_sobrenos img{
+    width: 100%;
+}
+
+.patas{
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.patas img{
+    width: 100%;
+    
+}
+
+.segundaH2 {
+    margin-top: -15%;
+    width: 100%;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-size: max(5px,5vw);
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.onda{
+    
+    max-width: 100%;
+    width:  100%;
+    margin-top: 4%;
+    
+}
+
+.onda img{
+    
+    width: 100%;
+    position: relative;
+    
+}
+
+.espaco_azul{
+    display: flex;
+    min-height: 25vh;
+    min-width: 100%;
+    width: 100%;
+    margin-top: -1%;
+    background-color: #4fbffe;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+
+
+.texto{
+    
+    max-width: 100%;
+    min-width: 70%;
+    display: flex;
+    position: relative;
+    text-align: justify;
+
+}
+
+.fotos{
+   display: flex;
+    width: 100%;
+    gap: 6%;
+  
+  
+}
+
+.fotos img{
+    max-width: 15vw;
+    margin-left: 11%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.texto2{
+    
+    max-width: 100%;
+    min-width: 70%;
+    display: flex;
+    position: relative;
+    text-align: justify;
+
+}
+.texto3{
+    margin-top: 3%;
+    max-width: 100%;
+    min-width: 70%;
+    display: flex;
+    position: relative;
+    text-align: justify;
+
+}
+
+
+.back_img{
+    background-image: url(../imagens/BCK_IMG.png);
+    width: 100%;
+}
+
+
+.mapa{
+    min-height: 40%;
+    max-width: 180%;
+    margin-right: 23%;
+    margin-left: 40%;
+    
+}
+
+.barra{
+    background-color: rgb(216, 216, 216);
+    position: absolute;
+    border-color: rgb(255, 255, 255);
+    height: 20%;
+    width: 0.2%;
+    left: 50%;
+}
